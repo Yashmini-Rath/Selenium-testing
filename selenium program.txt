@@ -1,0 +1,39 @@
+Package Pac1;
+import org.openqa.selenium.firefox.firefox driver;
+public class MyFirst Test{
+public static void main(String[]args){
+//system.setProperty("WebDriver.geeko.driver",\\c:\\geekodriver-v6.24\\geekodriver.exe");
+firefoxDiver driver=new firefoxDriver();
+driver.get("https://facebook.com");
+}
+}
+
+DATA CAPTURE METHOD
+public class myFirstTest
+{
+public static void main(String[]args)
+{
+//navigate to gmail application
+firefox Driver driver=new firefoxDriver();
+driver.get(https://gmail.com");
+//capture title of the current page
+String act Title=driver.gettitle();
+system.out.println(act Title);
+if(act Title.equals("gmail"));
+{system.out.println("login page is displayed==pass");
+}
+else
+{
+system.out.println("login page is not displayed==fail");
+}
+//capture url of the current page
+String act URL=driver get currenturl();
+system.out.println(act URL);
+//capture current page HTML sourcecode
+String page HTML code= driver.getpage.Source();
+system.out.println(page HTML code);
+//close the browser window, which is launched by webdriver
+driver.close();
+}
+}
+
